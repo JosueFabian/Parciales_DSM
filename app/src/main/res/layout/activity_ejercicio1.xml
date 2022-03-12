@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical"
+    tools:context=".Ejercicio1">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ecuación cuadrática"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="50dp" />
+
+    <EditText
+        android:id="@+id/txtvalora"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Valor a"
+        android:textSize="25dp"
+        android:textColorHint="@color/black"
+        android:layout_marginBottom="30dp"
+        android:paddingLeft="20dp"
+        android:inputType="number|numberSigned|numberDecimal"
+        />
+
+    <EditText
+        android:id="@+id/txtvalorb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Valor b"
+        android:textSize="25dp"
+        android:textColorHint="@color/black"
+        android:layout_marginBottom="30dp"
+        android:paddingLeft="20dp"
+        android:inputType="number|numberSigned|numberDecimal"
+        />
+    <EditText
+        android:id="@+id/txtvalorc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Valor c"
+        android:textSize="25dp"
+        android:textColorHint="@color/black"
+        android:layout_marginBottom="30dp"
+        android:paddingLeft="20dp"
+        android:inputType="number|numberSigned|numberDecimal"
+        />
+
+    <Button
+        android:id="@+id/btncalcular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:onClick="calcular"
+        android:text="Calcular"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/tvResultado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:paddingBottom="20dp"
+        android:paddingTop="20dp"
+        android:textSize="20sp"
+  />
+
+
+
+
+
+</LinearLayout>

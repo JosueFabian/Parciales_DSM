@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Registrarse"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="50dp" />
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Usuario"
+        android:textSize="25dp"
+        android:textColorHint="@color/black"
+        android:layout_marginBottom="30dp"
+        android:paddingLeft="20dp"
+        />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Contraseña"
+        android:textSize="25dp"
+        android:textColorHint="@color/black"
+        android:layout_marginBottom="30dp"
+        android:paddingLeft="20dp"
+        />
+    <EditText
+        android:id="@+id/password2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Confirmar contraseña"
+        android:textSize="25dp"
+        android:textColorHint="@color/black"
+        android:layout_marginBottom="30dp"
+        android:paddingLeft="20dp"
+        />
+
+    <Button
+        android:id="@+id/register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Crear usuario"
+        android:textSize="20dp"
+        android:layout_marginBottom="30dp"
+        />
+
+    <Button
+        android:id="@+id/signin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="¡Ya tengo una usuario!"
+        android:textSize="20dp"
+        android:layout_marginBottom="30dp"
+        />
+    
+</LinearLayout>   
+
+
+    
