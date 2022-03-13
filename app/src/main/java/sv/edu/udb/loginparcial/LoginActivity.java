@@ -39,7 +39,7 @@ public class LoginActivity extends AppCompatActivity {
                     Boolean checkuserpass= DB.checkusernamepassword(user, pass);
                     if (checkuserpass == true){
                         Toast.makeText(LoginActivity.this, "Inicio de sesión exitoso", Toast.LENGTH_SHORT).show();
-                        Intent intent = new Intent(getApplicationContext(), Ejercicio1.class);
+                        Intent intent = new Intent(getApplicationContext(), Ejercicio2.class);
                         startActivity(intent);
                     } else {
                         Toast.makeText(LoginActivity.this, "Inicio de sesión fallido", Toast.LENGTH_SHORT).show();

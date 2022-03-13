@@ -33,10 +33,20 @@
         android:id="@+id/btnvotos"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Contar votos"
-        android:drawableRight="@drawable/ic_baseline_check_circle_outline_24"
-        android:textSize="20dp"
         android:layout_marginBottom="30dp"
+        android:drawableRight="@drawable/ic_baseline_check_circle_outline_24"
+        android:onClick="contarvotos"
+        android:text="Contar votos"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/tvResultado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:paddingBottom="20dp"
+        android:paddingTop="20dp"
+        android:textSize="20sp"
         />
 
 </LinearLayout>
