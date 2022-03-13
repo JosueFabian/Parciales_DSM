@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.LoginParcial">
         <activity
+            android:name=".Ejercicio2"
+            android:exported="false" />
+        <activity
             android:name=".Ejercicio1"
             android:exported="false" />
         <activity

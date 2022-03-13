@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical"
+    tools:context=".Ejercicio2">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ingrese los votos"
+        android:textColor="@color/primary_text"
+        android:textSize="30dp"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="50dp" />
+
+    <EditText
+        android:id="@+id/etvotos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Votos"
+        android:textSize="25dp"
+        android:textColorHint="@color/secondary_text"
+        android:layout_marginBottom="30dp"
+        android:paddingLeft="20dp"
+        />
+
+
+    <Button
+        android:id="@+id/btnvotos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Contar votos"
+        android:drawableRight="@drawable/ic_baseline_check_circle_outline_24"
+        android:textSize="20dp"
+        android:layout_marginBottom="30dp"
+        />
+
+</LinearLayout>
